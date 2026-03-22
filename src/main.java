@@ -19,8 +19,6 @@ public class main {
 
             StdRandom.setSeed(1000 + t);
 
-            System.out.println("Generando y midiendo para n = " + n + "...");
-
             for (int i = 0; i < numInstances; i++) {
 
                 int maxK = (int) Math.pow(2, t - 2);
@@ -54,6 +52,5 @@ public class main {
             }
             out.close();
         }
-        System.out.println("¡Análisis empírico completado! Revisa los archivos CSV generados.");
     }
 }
